@@ -1,0 +1,97 @@
+@media screen and (min-width: 745px) {
+    .menu-btn {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .logo-div {
+        height: 12vh;
+    }
+
+    .logo {
+        width: fit-content;
+
+        position: absolute;
+        left: 10px;
+    }
+
+    .nav-two {
+        width: 100%;
+
+        display: flex;
+        justify-content: flex-end;
+
+        list-style-type: none;
+    }
+
+    .nav-two li {
+        margin: 5px;
+    }
+
+    .nav-two li a {
+        width: fit-content;
+        height: fit-content;
+    
+        margin: 0 auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        color: blue;
+        text-align: center;
+    
+        font-weight: 300;
+        font-size: 1rem;
+        padding: 0.2rem;
+    
+        background-color: rgb(255, 255, 255);
+        color: black;
+
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+
+        cursor: pointer;
+    }
+
+    #home-active {
+        border: 1px solid pink;
+    }
+
+    .nav-two li a:hover {
+        text-decoration: none;
+
+        border: 1px solid pink;
+    }
+}
+
+@media screen and (min-width: 898px) {
+    .nav-two {
+        display: flex;
+        justify-content: center;
+    }
+
+    .number {
+        display: block;
+
+        position: absolute;
+        top: 25px;
+        right: 10px;
+
+        color: blue;
+        text-decoration: underline;
+
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .number {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+    }
+
+    .logo-div {
+        height: 13vh;
+    }
+}

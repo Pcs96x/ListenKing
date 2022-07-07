@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(226, 173, 173);
+    font-family: 'Poppins';
+}
+
+.row-top-bar {
+    min-width: 100%;
+    height: 5vh;
+}
+
+.col-top-bar {
+    min-width: 100%;
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+
+    line-height: 5vh;
+
+    background-color: grey;
+}
+
+/* MENU */ 
+
+.menu-btn {
+    border: none;
+    background: none;
+
+    font-size: 18px;
+
+    margin: 7px;
+}
+
+.navbar {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar li {
+    padding: 7px;
+}
+
+.navbar li a {
+    color: black;
+}
+
+.nav-two {
+    display: none;
+}
+
+.number {
+    display: none;
+}
+
+/* LOGO */
+
+.logo-div {
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+.sign-in-btns {
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+
+.sign-in-btns button {
+    height: 7vh;
+
+    padding: .25em;
+
+    border: 1px solid black;
+    
+    background: none;
+}
+
+.number {
+    display: none;
+}
+
+/* MAIN IMAGE */
+
+.col-main-image {
+    min-width: 100%;
+    max-width: 100%;
+
+    width: 100%;
+    height: 70vh;
+
+    
+    background: url(/Images/disco.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-blend-mode: multiply ;
+    background-color: rgb(142, 192, 250);
+
+}
+
+.col-main-image h1 {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    text-align: center;
+    color: white;
+
+    font-weight: 300;
+}
+
+.col-main-image p {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    font-weight: 300;
+}
+
+.btn-div-signup {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-div-signup button {
+    color: blue;
+    background-color: white;
+
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+
+    border: none;
+}
